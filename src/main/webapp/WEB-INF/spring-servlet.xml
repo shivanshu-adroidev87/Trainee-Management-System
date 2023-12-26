@@ -1,0 +1,80 @@
+    <beans xmlns="http://www.springframework.org/schema/beans"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:context="http://www.springframework.org/schema/context"
+           xmlns:aop="http://www.springframework.org/schema/aop"
+           xmlns:mvc="http://www.springframework.org/schema/mvc"
+           xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+     http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd
+    http://www.springframework.org/schema/mvc
+    http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+        <context:component-scan base-package="com.nucleus.project" />
+        <context:annotation-config/>
+
+        <aop:aspectj-autoproxy/>
+
+        <mvc:annotation-driven></mvc:annotation-driven>
+        <mvc:annotation-driven>
+            <mvc:message-converters>
+                <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"/>
+            </mvc:message-converters>
+        </mvc:annotation-driven>
+
+        <!-- to get properties resource -->
+        <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+            <property name="basename" value="message" />
+            <property name="defaultEncoding" value="UTF-8"/>
+        </bean>
+
+        <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+            <property name="defaultEncoding" value="UTF-8" />
+            <property name="maxUploadSize" value="10485760"/>
+            <!-- You can set other properties if needed -->
+        </bean>
+
+        <!-- to get the locale attribute in the user session -->
+
+
+        <!-- allows you to change the user's locale (language and region) based on a request parameter or a predefined header in the HTTP request. It is a key component for implementing internationalization (i18n) and localization (l10n) in a Spring MVC application -->
+        <bean id="localeChangeInterceptor" class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
+            <property name="paramName" value="lang" />
+        </bean>
+
+
+
+        <bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver">
+            <property name="defaultLocale" value="en_US_ch_HN" /></bean>
+
+
+
+        <!-- It's a subtype of the RequestMappingInfoHandlerMapping and serves as a handler mapping strategy responsible for mapping incoming HTTP requests to the appropriate controller methods based on their request mappings. -->
+        <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping">
+            <property name="interceptors">
+                <list>
+                    <ref bean="localeChangeInterceptor" />
+                </list>
+            </property>
+        </bean>
+
+
+        <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+            <property name="prefix" value="/WEB-INF/views/" />
+            <property name="suffix" value=".jsp" />
+        </bean>
+
+
+        <bean id="aopConfig" class="com.nucleus.project.aop.AopImpl"/>
+
+        <bean id="customEditorConfigurer" class="org.springframework.beans.factory.config.CustomEditorConfigurer">
+            <property name="customEditors">
+                <map>
+                    <entry key="java.time.LocalDate" value="com.nucleus.project.bean.CustomProperty"/>
+                </map>
+            </property>
+        </bean>
+
+    </beans>
