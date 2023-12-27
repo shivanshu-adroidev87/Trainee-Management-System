@@ -1,0 +1,14 @@
+
+m	java:S127º"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æğùŒ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(§Ÿˆ–ÿÿÿÿÿ
+t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ó¹¤•ûÿÿÿÿ
+t	java:S115 "ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(úŠÛÜøÿÿÿÿ
+o	java:S115!"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ŞË ö
+o	java:S115""ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Èüñ¥
+[
+java:S4684`"@Replace this persistent entity with a simple POJO or DTO object.(¨î‘øÿÿÿÿ
+[
+java:S4684|"@Replace this persistent entity with a simple POJO or DTO object.(‚Î¶Şøÿÿÿÿ
+W
+java:S4684Š"@Replace this persistent entity with a simple POJO or DTO object.(™Ú±Ç

@@ -1,0 +1,466 @@
+[WARN ] 2023-11-11 11:00:47.428 [http-nio-8080-exec-6] PageNotFound - No mapping for GET /brdMaker_Checker/traineeDetails/1
+[WARN ] 2023-11-11 11:14:30.386 [http-nio-8080-exec-7] PageNotFound - No mapping for GET /brdMaker_Checker/editForm/1
+[WARN ] 2023-11-11 11:14:35.771 [http-nio-8080-exec-9] PageNotFound - No mapping for GET /brdMaker_Checker/deleteTrainee/1
+[INFO ] 2023-11-11 11:25:19.860 [main] DispatcherServlet - Initializing Servlet 'dispatcher'
+[INFO ] 2023-11-11 11:25:21.418 [main] Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO ] 2023-11-11 11:25:21.895 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-11-11 11:25:24.580 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-11-11 11:25:26.673 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-11-11 11:25:27.943 [main] DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4924c27e, org.springframework.security.web.context.SecurityContextPersistenceFilter@52afe9f2, org.springframework.security.web.header.HeaderWriterFilter@64845c40, org.springframework.security.web.authentication.logout.LogoutFilter@11275783, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7fb2e8d3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@b7e20f2, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7b04dba0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66efaca, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@213488e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@57916acc, org.springframework.security.web.session.SessionManagementFilter@1472308f, org.springframework.security.web.access.ExceptionTranslationFilter@77e86a53, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@44a65503]
+[INFO ] 2023-11-11 11:25:27.986 [main] DispatcherServlet - Completed initialization in 8110 ms
+[WARN ] 2023-11-11 11:27:43.105 [http-nio-8080-exec-1] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "editTrainee"]
+[WARN ] 2023-11-11 11:28:15.267 [http-nio-8080-exec-4] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "editTrainee"]
+[INFO ] 2023-11-11 11:58:30.888 [main] DispatcherServlet - Initializing Servlet 'dispatcher'
+[INFO ] 2023-11-11 11:58:32.974 [main] Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO ] 2023-11-11 11:58:33.976 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-11-11 11:58:38.199 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-11-11 11:58:42.522 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-11-11 11:58:45.478 [main] DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c01d268, org.springframework.security.web.context.SecurityContextPersistenceFilter@68073c8d, org.springframework.security.web.header.HeaderWriterFilter@189283ae, org.springframework.security.web.authentication.logout.LogoutFilter@5ec4d81b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6d1e558b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@187f6ac7, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@26415f0b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@140fc16f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3703bc7e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77652fc6, org.springframework.security.web.session.SessionManagementFilter@508a1ef0, org.springframework.security.web.access.ExceptionTranslationFilter@7882f2e2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@490cce64]
+[INFO ] 2023-11-11 11:58:45.541 [main] DispatcherServlet - Completed initialization in 14642 ms
+[WARN ] 2023-11-11 11:58:58.479 [http-nio-8080-exec-3] ResourceBundleMessageSource - ResourceBundle [message] not found for MessageSource: Can't find bundle for base name message, locale en_IN
+[WARN ] 2023-11-11 11:59:25.061 [http-nio-8080-exec-10] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "editTraineeSubmit"]
+[WARN ] 2023-11-11 11:59:42.471 [http-nio-8080-exec-3] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "editTraineeSubmit"]
+[WARN ] 2023-11-11 11:59:50.121 [http-nio-8080-exec-5] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "editTraineeSubmit"]
+[WARN ] 2023-11-11 12:02:38.492 [http-nio-8080-exec-7] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "editTraineeSubmit"]
+[WARN ] 2023-11-11 12:02:44.779 [http-nio-8080-exec-10] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "editTraineeSubmit"]
+[WARN ] 2023-11-11 12:03:41.166 [http-nio-8080-exec-3] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "editTraineeSubmit"]
+[WARN ] 2023-11-11 12:04:10.791 [http-nio-8080-exec-5] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "editTraineeSubmit"]
+[WARN ] 2023-11-11 12:04:11.569 [http-nio-8080-exec-6] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "editTraineeSubmit"]
+[WARN ] 2023-11-11 12:04:16.228 [http-nio-8080-exec-7] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "editTraineeSubmit"]
+[WARN ] 2023-11-11 12:04:30.815 [http-nio-8080-exec-9] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "editTraineeSubmit"]
+[WARN ] 2023-11-11 12:04:31.613 [http-nio-8080-exec-10] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "editTraineeSubmit"]
+[INFO ] 2023-11-11 12:04:38.432 [http-nio-8080-exec-2] AbstractBatchImpl - HHH000010: On release of batch it still contained JDBC statements
+[INFO ] 2023-11-11 12:19:10.458 [main] DispatcherServlet - Initializing Servlet 'dispatcher'
+[INFO ] 2023-11-11 12:19:11.876 [main] Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO ] 2023-11-11 12:19:12.363 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-11-11 12:19:15.520 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-11-11 12:19:17.819 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-11-11 12:19:19.091 [main] DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b7c79da, org.springframework.security.web.context.SecurityContextPersistenceFilter@6537ab7d, org.springframework.security.web.header.HeaderWriterFilter@5d887ffc, org.springframework.security.web.authentication.logout.LogoutFilter@30b9d1f0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@595dda6d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@25ad3681, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4c9f28ac, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52889c68, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@57e86d0c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2694b6f6, org.springframework.security.web.session.SessionManagementFilter@56048e4d, org.springframework.security.web.access.ExceptionTranslationFilter@1275d11b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@778067f5]
+[INFO ] 2023-11-11 12:19:19.125 [main] DispatcherServlet - Completed initialization in 8655 ms
+[INFO ] 2023-11-11 12:20:06.358 [http-nio-8080-exec-7] AopImpl - Exception in updating trainee Trainee{traineeId=0, traineeName='ChinmayKumar', dateOfBirth=2000-01-12, registrationDate=null, enrollDate=null, emailId='chinmay12@gmail.com', contact=45678987611, address='Balasore', batch=null}
+[INFO ] 2023-11-11 12:20:27.470 [http-nio-8080-exec-10] AopImpl - Exception in updating trainee Trainee{traineeId=0, traineeName='ChinmayKumar', dateOfBirth=2000-01-12, registrationDate=null, enrollDate=null, emailId='chinmay12@gmail.com', contact=45678987611, address='Balasore', batch=null}
+[INFO ] 2023-11-11 12:20:57.577 [http-nio-8080-exec-3] AopImpl - Exception in updating trainee Trainee{traineeId=0, traineeName='ChinmayKumar', dateOfBirth=2000-01-12, registrationDate=null, enrollDate=null, emailId='chinmay12@gmail.com', contact=45678987611, address='Balasore', batch=null}
+[WARN ] 2023-11-11 12:20:59.733 [http-nio-8080-exec-4] PageNotFound - No mapping for GET /brdMaker_Checker/adminDashboard
+[INFO ] 2023-11-11 12:21:04.071 [http-nio-8080-exec-5] AopImpl - Exception in updating trainee Trainee{traineeId=0, traineeName='ChinmayKumar', dateOfBirth=2000-01-12, registrationDate=null, enrollDate=null, emailId='chinmay12@gmail.com', contact=45678987611, address='Balasore', batch=null}
+[WARN ] 2023-11-11 12:21:11.149 [http-nio-8080-exec-6] PageNotFound - No mapping for GET /brdMaker_Checker/adminDashboard
+[WARN ] 2023-11-11 12:21:35.943 [http-nio-8080-exec-9] PageNotFound - No mapping for GET /brdMaker_Checker/adminDashboard
+[WARN ] 2023-11-11 12:21:36.594 [http-nio-8080-exec-10] PageNotFound - No mapping for GET /brdMaker_Checker/adminDashboard
+[WARN ] 2023-11-11 12:21:36.761 [http-nio-8080-exec-1] PageNotFound - No mapping for GET /brdMaker_Checker/adminDashboard
+[INFO ] 2023-11-11 12:21:39.354 [http-nio-8080-exec-2] AopImpl - Exception in updating trainee Trainee{traineeId=0, traineeName='ChinmayKumar', dateOfBirth=2000-01-12, registrationDate=null, enrollDate=null, emailId='chinmay12@gmail.com', contact=45678987611, address='Balasore', batch=null}
+[WARN ] 2023-11-11 12:21:41.058 [http-nio-8080-exec-3] PageNotFound - No mapping for GET /brdMaker_Checker/adminDashboard
+[WARN ] 2023-11-11 12:22:41.530 [http-nio-8080-exec-6] PageNotFound - No mapping for GET /brdMaker_Checker/adminDashboard
+[WARN ] 2023-11-11 12:22:42.062 [http-nio-8080-exec-7] PageNotFound - No mapping for GET /brdMaker_Checker/adminDashboard
+[WARN ] 2023-11-11 12:22:42.224 [http-nio-8080-exec-8] PageNotFound - No mapping for GET /brdMaker_Checker/adminDashboard
+[WARN ] 2023-11-11 12:22:42.375 [http-nio-8080-exec-9] PageNotFound - No mapping for GET /brdMaker_Checker/adminDashboard
+[INFO ] 2023-11-11 12:22:44.834 [http-nio-8080-exec-10] AopImpl - Exception in updating trainee Trainee{traineeId=0, traineeName='ChinmayKumar', dateOfBirth=2000-01-12, registrationDate=null, enrollDate=null, emailId='chinmay12@gmail.com', contact=45678987611, address='Balasore', batch=null}
+[INFO ] 2023-11-11 12:23:49.412 [main] DispatcherServlet - Initializing Servlet 'dispatcher'
+[INFO ] 2023-11-11 12:23:50.869 [main] Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO ] 2023-11-11 12:23:51.294 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-11-11 12:23:54.148 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-11-11 12:23:56.303 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-11-11 12:23:57.531 [main] DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c01d268, org.springframework.security.web.context.SecurityContextPersistenceFilter@68073c8d, org.springframework.security.web.header.HeaderWriterFilter@189283ae, org.springframework.security.web.authentication.logout.LogoutFilter@5ec4d81b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6d1e558b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@187f6ac7, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@26415f0b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@140fc16f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3703bc7e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77652fc6, org.springframework.security.web.session.SessionManagementFilter@508a1ef0, org.springframework.security.web.access.ExceptionTranslationFilter@7882f2e2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@490cce64]
+[INFO ] 2023-11-11 12:23:57.561 [main] DispatcherServlet - Completed initialization in 8137 ms
+[INFO ] 2023-11-11 12:25:08.151 [http-nio-8080-exec-6] AopImpl - Exception in updating trainee Trainee{traineeId=0, traineeName='ChinmayKumar', dateOfBirth=2000-01-12, registrationDate=null, enrollDate=null, emailId='chinmay13@gmail.com', contact=45678987611, address='Balasore', batch=null}
+[INFO ] 2023-11-11 12:36:49.360 [main] DispatcherServlet - Initializing Servlet 'dispatcher'
+[INFO ] 2023-11-11 12:36:50.804 [main] Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO ] 2023-11-11 12:36:51.235 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-11-11 12:36:54.029 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-11-11 12:36:56.297 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-11-11 12:36:57.584 [main] DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c01d268, org.springframework.security.web.context.SecurityContextPersistenceFilter@68073c8d, org.springframework.security.web.header.HeaderWriterFilter@189283ae, org.springframework.security.web.authentication.logout.LogoutFilter@5ec4d81b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6d1e558b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@187f6ac7, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@26415f0b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@140fc16f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3703bc7e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77652fc6, org.springframework.security.web.session.SessionManagementFilter@508a1ef0, org.springframework.security.web.access.ExceptionTranslationFilter@7882f2e2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@490cce64]
+[INFO ] 2023-11-11 12:36:57.612 [main] DispatcherServlet - Completed initialization in 8242 ms
+[WARN ] 2023-11-11 12:37:25.062 [http-nio-8080-exec-8] DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "adminLogin"]
+[INFO ] 2023-11-11 12:55:57.210 [main] DispatcherServlet - Initializing Servlet 'dispatcher'
+[INFO ] 2023-11-11 12:56:00.073 [main] Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO ] 2023-11-11 12:56:00.940 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-11-11 12:56:04.782 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-11-11 12:56:07.695 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[WARN ] 2023-11-11 12:56:07.993 [main] XmlWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Invalid mapping on handler class [com.nucleus.project.controller.AdminController]: public java.lang.String com.nucleus.project.controller.AdminController.deleteTrainee(int,org.springframework.ui.Model)
+[ERROR] 2023-11-11 12:56:08.000 [main] DispatcherServlet - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Invalid mapping on handler class [com.nucleus.project.controller.AdminController]: public java.lang.String com.nucleus.project.controller.AdminController.deleteTrainee(int,org.springframework.ui.Model)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:143) ~[servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1106) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1063) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:960) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4641) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4948) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888) ~[catalina.jar:9.0.80]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-util.jar:9.0.80]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118) ~[?:?]
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322) ~[catalina.jar:9.0.80]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-util.jar:9.0.80]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[?:?]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:922) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:772) ~[catalina.jar:9.0.80]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347) ~[bootstrap.jar:9.0.80]
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478) ~[bootstrap.jar:9.0.80]
+Caused by: java.lang.IllegalStateException: Invalid mapping on handler class [com.nucleus.project.controller.AdminController]: public java.lang.String com.nucleus.project.controller.AdminController.deleteTrainee(int,org.springframework.ui.Model)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:288) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.core.MethodIntrospector.lambda$selectMethods$0(MethodIntrospector.java:74) ~[spring-core-5.3.26.jar:5.3.26]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:367) ~[spring-core-5.3.26.jar:5.3.26]
+	at org.springframework.core.MethodIntrospector.selectMethods(MethodIntrospector.java:72) ~[spring-core-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:281) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:205) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.26.jar:5.3.26]
+	... 60 more
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'traineeId' in value "/deleteTrainee/${traineeId}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180) ~[spring-core-5.3.26.jar:5.3.26]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126) ~[spring-core-5.3.26.jar:5.3.26]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239) ~[spring-core-5.3.26.jar:5.3.26]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210) ~[spring-core-5.3.26.jar:5.3.26]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:191) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.config.EmbeddedValueResolver.resolveStringValue(EmbeddedValueResolver.java:54) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.resolveEmbeddedValuesInPatterns(RequestMappingHandlerMapping.java:393) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.createRequestMappingInfo(RequestMappingHandlerMapping.java:369) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.createRequestMappingInfo(RequestMappingHandlerMapping.java:324) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getMappingForMethod(RequestMappingHandlerMapping.java:284) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.getMappingForMethod(RequestMappingHandlerMapping.java:76) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:284) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.core.MethodIntrospector.lambda$selectMethods$0(MethodIntrospector.java:74) ~[spring-core-5.3.26.jar:5.3.26]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:367) ~[spring-core-5.3.26.jar:5.3.26]
+	at org.springframework.core.MethodIntrospector.selectMethods(MethodIntrospector.java:72) ~[spring-core-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:281) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:266) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:225) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:213) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:205) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.26.jar:5.3.26]
+	... 60 more
+[INFO ] 2023-11-11 12:57:07.618 [main] DispatcherServlet - Initializing Servlet 'dispatcher'
+[INFO ] 2023-11-11 12:57:10.649 [main] Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO ] 2023-11-11 12:57:11.569 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-11-11 12:57:16.028 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-11-11 12:57:24.392 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-11-11 12:57:26.234 [main] DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@611f774a, org.springframework.security.web.context.SecurityContextPersistenceFilter@21c09e90, org.springframework.security.web.header.HeaderWriterFilter@2fae65df, org.springframework.security.web.authentication.logout.LogoutFilter@52afe9f2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@66557a82, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4b11a972, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@229050ef, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@292be875, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a056d13, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35cefec6, org.springframework.security.web.session.SessionManagementFilter@aea96b0, org.springframework.security.web.access.ExceptionTranslationFilter@18b9b269, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@d8194cc]
+[INFO ] 2023-11-11 12:57:26.272 [main] DispatcherServlet - Completed initialization in 18639 ms
+[INFO ] 2023-11-11 12:57:54.042 [http-nio-8080-exec-5] AopImpl - Exception while deleting trainee Id  2
+[INFO ] 2023-11-11 12:58:55.466 [main] DispatcherServlet - Initializing Servlet 'dispatcher'
+[INFO ] 2023-11-11 12:58:57.429 [main] Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO ] 2023-11-11 12:58:58.438 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-11-11 12:59:02.529 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-11-11 12:59:05.729 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-11-11 12:59:07.565 [main] DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@557f969e, org.springframework.security.web.context.SecurityContextPersistenceFilter@343f01c7, org.springframework.security.web.header.HeaderWriterFilter@7432a39e, org.springframework.security.web.authentication.logout.LogoutFilter@7d576ea9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7bde4c65, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7c9a5397, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6c83c686, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@228a6823, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@236a641a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2c107b94, org.springframework.security.web.session.SessionManagementFilter@197d38a, org.springframework.security.web.access.ExceptionTranslationFilter@24d7df03, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3f851ccf]
+[INFO ] 2023-11-11 12:59:07.609 [main] DispatcherServlet - Completed initialization in 12130 ms
+[INFO ] 2023-11-11 22:31:15.623 [main] DispatcherServlet - Initializing Servlet 'dispatcher'
+[INFO ] 2023-11-11 22:31:17.924 [main] Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO ] 2023-11-11 22:31:18.714 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-11-11 22:31:22.696 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-11-11 22:31:25.724 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-11-11 22:31:27.609 [main] DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@57f1cb96, org.springframework.security.web.context.SecurityContextPersistenceFilter@4caca1, org.springframework.security.web.header.HeaderWriterFilter@7c9a3be, org.springframework.security.web.authentication.logout.LogoutFilter@41b7ebec, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@38e4697d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5b6dc76c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@274b3fc6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1145eb60, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@412d379c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@9e3c653, org.springframework.security.web.session.SessionManagementFilter@8e2961, org.springframework.security.web.access.ExceptionTranslationFilter@43bc1d67, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@55f066b4]
+[INFO ] 2023-11-11 22:31:27.666 [main] DispatcherServlet - Completed initialization in 12025 ms
+[WARN ] 2023-11-11 22:31:33.341 [http-nio-8080-exec-4] ResourceBundleMessageSource - ResourceBundle [message] not found for MessageSource: Can't find bundle for base name message, locale en_IN
+[INFO ] 2023-11-11 22:33:03.820 [main] DispatcherServlet - Initializing Servlet 'dispatcher'
+[INFO ] 2023-11-11 22:33:05.959 [main] Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO ] 2023-11-11 22:33:06.763 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-11-11 22:33:10.040 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[WARN ] 2023-11-11 22:33:12.905 [main] XmlWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminServiceImpl': Unsatisfied dependency expressed through field 'adminRepo'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminRepoImpl': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'localSessionFactoryBean' defined in com.nucleus.project.configuration.HibernateConfig: Invocation of init method failed; nested exception is org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.nucleus.project.bean.Batch.assessmentList, com.nucleus.project.bean.Batch.traineeList]
+[ERROR] 2023-11-11 22:33:12.906 [main] DispatcherServlet - Context initialization failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminServiceImpl': Unsatisfied dependency expressed through field 'adminRepo'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminRepoImpl': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'localSessionFactoryBean' defined in com.nucleus.project.configuration.HibernateConfig: Invocation of init method failed; nested exception is org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.nucleus.project.bean.Batch.assessmentList, com.nucleus.project.bean.Batch.traineeList]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:920) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:702) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:668) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:716) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:591) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:530) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:170) ~[spring-webmvc-5.3.26.jar:5.3.26]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:143) ~[servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1106) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1063) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:960) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4641) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4948) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888) ~[catalina.jar:9.0.80]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-util.jar:9.0.80]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118) ~[?:?]
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322) ~[catalina.jar:9.0.80]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-util.jar:9.0.80]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140) ~[?:?]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:922) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171) ~[catalina.jar:9.0.80]
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:772) ~[catalina.jar:9.0.80]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347) ~[bootstrap.jar:9.0.80]
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478) ~[bootstrap.jar:9.0.80]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminServiceImpl': Unsatisfied dependency expressed through field 'adminRepo'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminRepoImpl': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'localSessionFactoryBean' defined in com.nucleus.project.configuration.HibernateConfig: Invocation of init method failed; nested exception is org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.nucleus.project.bean.Batch.assessmentList, com.nucleus.project.bean.Batch.traineeList]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.26.jar:5.3.26]
+	... 64 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminRepoImpl': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'localSessionFactoryBean' defined in com.nucleus.project.configuration.HibernateConfig: Invocation of init method failed; nested exception is org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.nucleus.project.bean.Batch.assessmentList, com.nucleus.project.bean.Batch.traineeList]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.26.jar:5.3.26]
+	... 64 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'localSessionFactoryBean' defined in com.nucleus.project.configuration.HibernateConfig: Invocation of init method failed; nested exception is org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.nucleus.project.bean.Batch.assessmentList, com.nucleus.project.bean.Batch.traineeList]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.26.jar:5.3.26]
+	... 64 more
+Caused by: org.hibernate.loader.MultipleBagFetchException: cannot simultaneously fetch multiple bags: [com.nucleus.project.bean.Batch.assessmentList, com.nucleus.project.bean.Batch.traineeList]
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadQueryDetails.generate(AbstractLoadQueryDetails.java:193) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.loader.plan.exec.internal.EntityLoadQueryDetails.<init>(EntityLoadQueryDetails.java:85) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.loader.plan.exec.internal.BatchingLoadQueryDetailsFactory.makeEntityLoadQueryDetails(BatchingLoadQueryDetailsFactory.java:64) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.loader.entity.plan.AbstractLoadPlanBasedEntityLoader.<init>(AbstractLoadPlanBasedEntityLoader.java:97) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.loader.entity.plan.AbstractLoadPlanBasedEntityLoader.<init>(AbstractLoadPlanBasedEntityLoader.java:112) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.loader.entity.plan.EntityLoader.<init>(EntityLoader.java:117) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.loader.entity.plan.EntityLoader.<init>(EntityLoader.java:30) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.loader.entity.plan.EntityLoader$Builder.byUniqueKey(EntityLoader.java:82) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.loader.entity.plan.EntityLoader$Builder.byPrimaryKey(EntityLoader.java:75) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.loader.entity.plan.AbstractBatchingEntityLoaderBuilder.buildNonBatchingLoader(AbstractBatchingEntityLoaderBuilder.java:30) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.loader.entity.BatchingEntityLoaderBuilder.buildLoader(BatchingEntityLoaderBuilder.java:61) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.createEntityLoader(AbstractEntityPersister.java:2689) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.createEntityLoader(AbstractEntityPersister.java:2711) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.generateDelayedEntityLoader(AbstractEntityPersister.java:4493) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.internal.util.collections.LazyIndexedMap.lockedComputeIfAbsent(LazyIndexedMap.java:77) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.internal.util.collections.LazyIndexedMap.computeIfAbsent(LazyIndexedMap.java:63) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.persister.entity.EntityLoaderLazyCollection.getOrBuildByLockMode(EntityLoaderLazyCollection.java:34) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.getLoaderByLockMode(AbstractEntityPersister.java:4484) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.createLoaders(AbstractEntityPersister.java:4471) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.postInstantiate(AbstractEntityPersister.java:4445) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.metamodel.internal.MetamodelImpl.initialize(MetamodelImpl.java:258) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:319) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:471) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:728) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:746) ~[hibernate-core-5.6.15.Final.jar:5.6.15.Final]
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:616) ~[spring-orm-5.3.26.jar:5.3.26]
+	at org.springframework.orm.hibernate5.LocalSessionFactoryBean.afterPropertiesSet(LocalSessionFactoryBean.java:600) ~[spring-orm-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311) ~[spring-beans-5.3.26.jar:5.3.26]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657) ~[spring-beans-5.3.26.jar:5.3.26]
+	... 64 more
+[INFO ] 2023-11-11 22:38:57.359 [main] DispatcherServlet - Initializing Servlet 'dispatcher'
+[INFO ] 2023-11-11 22:38:59.997 [main] Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO ] 2023-11-11 22:39:00.843 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-11-11 22:39:04.015 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-11-11 22:39:06.960 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-11-11 22:39:08.849 [main] DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4bb408d1, org.springframework.security.web.context.SecurityContextPersistenceFilter@32e8c3c3, org.springframework.security.web.header.HeaderWriterFilter@7c1ac3b, org.springframework.security.web.authentication.logout.LogoutFilter@57f1cb96, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@38207d19, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2169e311, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6084d56b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6ad6484, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1a35041, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@53e1be66, org.springframework.security.web.session.SessionManagementFilter@4790a29a, org.springframework.security.web.access.ExceptionTranslationFilter@5ca64b79, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@b2bfd65]
+[INFO ] 2023-11-11 22:39:08.899 [main] DispatcherServlet - Completed initialization in 11527 ms
+[INFO ] 2023-11-11 22:48:19.009 [main] DispatcherServlet - Initializing Servlet 'dispatcher'
+[INFO ] 2023-11-11 22:48:21.201 [main] Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO ] 2023-11-11 22:48:22.132 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-11-11 22:48:25.611 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-11-11 22:48:28.524 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-11-11 22:48:30.434 [main] DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ad1a318, org.springframework.security.web.context.SecurityContextPersistenceFilter@aea96b0, org.springframework.security.web.header.HeaderWriterFilter@7e14627b, org.springframework.security.web.authentication.logout.LogoutFilter@1472308f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4b6a7362, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@313ac50e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@8381edd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21c09e90, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d6a20f7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@611f774a, org.springframework.security.web.session.SessionManagementFilter@2fae65df, org.springframework.security.web.access.ExceptionTranslationFilter@4d031311, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@30cf6802]
+[INFO ] 2023-11-11 22:48:30.471 [main] DispatcherServlet - Completed initialization in 11450 ms
+[INFO ] 2023-11-11 22:49:57.975 [main] DispatcherServlet - Initializing Servlet 'dispatcher'
+[INFO ] 2023-11-11 22:50:00.330 [main] Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO ] 2023-11-11 22:50:01.161 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-11-11 22:50:04.894 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-11-11 22:50:07.969 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-11-11 22:50:09.844 [main] DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@98e2a07, org.springframework.security.web.context.SecurityContextPersistenceFilter@61c987d7, org.springframework.security.web.header.HeaderWriterFilter@53e1be66, org.springframework.security.web.authentication.logout.LogoutFilter@5c04d23e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@778067f5, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@557f969e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@cfcab77, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@417081c8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4302394a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3bc59637, org.springframework.security.web.session.SessionManagementFilter@796ca104, org.springframework.security.web.access.ExceptionTranslationFilter@69db41bc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2219ca9f]
+[INFO ] 2023-11-11 22:50:09.894 [main] DispatcherServlet - Completed initialization in 11907 ms
+[INFO ] 2023-11-11 22:52:40.326 [main] DispatcherServlet - Initializing Servlet 'dispatcher'
+[INFO ] 2023-11-11 22:52:42.753 [main] Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO ] 2023-11-11 22:52:43.605 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-11-11 22:52:47.306 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-11-11 22:52:50.382 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-11-11 22:52:51.856 [main] DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67775d80, org.springframework.security.web.context.SecurityContextPersistenceFilter@15dcaa32, org.springframework.security.web.header.HeaderWriterFilter@21c09e90, org.springframework.security.web.authentication.logout.LogoutFilter@414dc3ca, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5cb3fff1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@17051fb4, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@47c06ea9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@41334af0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@511966dc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@53a8059, org.springframework.security.web.session.SessionManagementFilter@292be875, org.springframework.security.web.access.ExceptionTranslationFilter@2fae65df, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4acca937]
+[INFO ] 2023-11-11 22:52:51.888 [main] DispatcherServlet - Completed initialization in 11550 ms
+[INFO ] 2023-11-11 22:53:50.443 [main] DispatcherServlet - Initializing Servlet 'dispatcher'
+[INFO ] 2023-11-11 22:53:52.904 [main] Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO ] 2023-11-11 22:53:53.602 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-11-11 22:53:57.083 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-11-11 22:54:00.046 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-11-11 22:54:01.886 [main] DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7dc8d054, org.springframework.security.web.context.SecurityContextPersistenceFilter@304d96b5, org.springframework.security.web.header.HeaderWriterFilter@7d9c8c61, org.springframework.security.web.authentication.logout.LogoutFilter@6c8057d1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@117f1636, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@511966dc, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@67775d80, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@372d7420, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1035ec3c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47c06ea9, org.springframework.security.web.session.SessionManagementFilter@77aabf26, org.springframework.security.web.access.ExceptionTranslationFilter@7a51ba06, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b6a7362]
+[INFO ] 2023-11-11 22:54:01.930 [main] DispatcherServlet - Completed initialization in 11468 ms

@@ -1,0 +1,178 @@
+[INFO ] 2023-11-20 09:21:20.056 [main] DispatcherServlet - Initializing Servlet 'dispatcher'
+[INFO ] 2023-11-20 09:21:25.480 [main] Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO ] 2023-11-20 09:21:26.893 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-11-20 09:21:30.030 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-11-20 09:21:33.670 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-11-20 09:21:36.446 [main] DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67cb11de, org.springframework.security.web.context.SecurityContextPersistenceFilter@5521f423, org.springframework.security.web.header.HeaderWriterFilter@b3bb18a, org.springframework.security.web.authentication.logout.LogoutFilter@51512c6c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@16e557d4, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@13e4287c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@357aa5cf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4601abbe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@45ba31bc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1640a06f, org.springframework.security.web.session.SessionManagementFilter@2063d1c8, org.springframework.security.web.access.ExceptionTranslationFilter@36db2ef8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@263b0a8d]
+[INFO ] 2023-11-20 09:21:36.484 [main] DispatcherServlet - Completed initialization in 16214 ms
+[WARN ] 2023-11-20 09:21:44.102 [http-nio-8080-exec-4] ResourceBundleMessageSource - ResourceBundle [message] not found for MessageSource: Can't find bundle for base name message, locale en_IN
+[INFO ] 2023-11-20 09:21:54.225 [http-nio-8080-exec-8] AopImpl - Retrieving all trainee records  : getAllTrainees
+ Returned Trainee List : 
+[com.nucleus.project.bean.Trainee@1c9fe865, com.nucleus.project.bean.Trainee@6e3621b3, com.nucleus.project.bean.Trainee@789c4543]
+[INFO ] 2023-11-20 09:22:01.075 [http-nio-8080-exec-10] AopImpl - Retrieving all batches  :  getAllBatch
+ Returned Customer List : 
+[com.nucleus.project.bean.Batch@137b3136]
+[INFO ] 2023-11-20 09:22:06.258 [http-nio-8080-exec-1] AopImpl - Retrieving all trainee records  : getAllTrainees
+ Returned Trainee List : 
+[com.nucleus.project.bean.Trainee@5cd15f80, com.nucleus.project.bean.Trainee@2d98d145, com.nucleus.project.bean.Trainee@16226ff0]
+[WARN ] 2023-11-20 09:26:10.877 [http-nio-8080-exec-9] ResourceBundleMessageSource - ResourceBundle [message] not found for MessageSource: Can't find bundle for base name message, locale en_IN
+[INFO ] 2023-11-20 09:26:15.059 [http-nio-8080-exec-3] AopImpl - Retrieving all trainee records  : getAllTrainees
+ Returned Trainee List : 
+[com.nucleus.project.bean.Trainee@4720bab9, com.nucleus.project.bean.Trainee@7f7f8e8f, com.nucleus.project.bean.Trainee@3c4132e8]
+[WARN ] 2023-11-20 09:27:14.634 [http-nio-8080-exec-8] ResourceBundleMessageSource - ResourceBundle [message] not found for MessageSource: Can't find bundle for base name message, locale en_IN
+[INFO ] 2023-11-20 09:36:35.638 [main] DispatcherServlet - Initializing Servlet 'dispatcher'
+[INFO ] 2023-11-20 09:36:39.110 [main] Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO ] 2023-11-20 09:36:40.093 [main] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-11-20 09:36:53.531 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-11-20 09:36:56.254 [main] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-11-20 09:36:58.416 [main] DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c96249e, org.springframework.security.web.context.SecurityContextPersistenceFilter@f7269a2, org.springframework.security.web.header.HeaderWriterFilter@47af69bc, org.springframework.security.web.authentication.logout.LogoutFilter@47bdfc41, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@58afc14, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2b48931b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2dfb8de3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4975af1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2afac2f7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ea4cfe0, org.springframework.security.web.session.SessionManagementFilter@2dd1de65, org.springframework.security.web.access.ExceptionTranslationFilter@46245500, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5877a9e7]
+[INFO ] 2023-11-20 09:36:58.453 [main] DispatcherServlet - Completed initialization in 22795 ms
+[WARN ] 2023-11-20 09:41:51.813 [http-nio-8080-exec-3] ResourceBundleMessageSource - ResourceBundle [message] not found for MessageSource: Can't find bundle for base name message, locale en_IN
+[INFO ] 2023-11-20 09:41:59.513 [http-nio-8080-exec-7] AopImpl - Retrieving all trainee records  : getAllTrainees
+ Returned Trainee List : 
+[com.nucleus.project.bean.Trainee@74e12fa8, com.nucleus.project.bean.Trainee@72ce0023, com.nucleus.project.bean.Trainee@458d705b]
+[INFO ] 2023-11-20 09:42:06.547 [http-nio-8080-exec-9] AopImpl - Retrieving all trainee records  : getAllTrainees
+ Returned Trainee List : 
+[com.nucleus.project.bean.Trainee@2a9c0c74, com.nucleus.project.bean.Trainee@7e92b24f, com.nucleus.project.bean.Trainee@3a81996a]
+[WARN ] 2023-11-20 09:42:24.133 [http-nio-8080-exec-2] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:24.133 [http-nio-8080-exec-2] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:42:24.164 [http-nio-8080-exec-2] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:24.164 [http-nio-8080-exec-2] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:42:38.603 [http-nio-8080-exec-3] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:38.603 [http-nio-8080-exec-3] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:42:38.620 [http-nio-8080-exec-3] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:38.620 [http-nio-8080-exec-3] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:42:51.878 [http-nio-8080-exec-4] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:51.878 [http-nio-8080-exec-4] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:42:51.893 [http-nio-8080-exec-4] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:51.893 [http-nio-8080-exec-4] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:42:52.000 [http-nio-8080-exec-6] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:52.000 [http-nio-8080-exec-6] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:42:52.000 [http-nio-8080-exec-6] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:52.000 [http-nio-8080-exec-6] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:42:52.112 [http-nio-8080-exec-5] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:52.112 [http-nio-8080-exec-5] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:42:52.126 [http-nio-8080-exec-5] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:52.126 [http-nio-8080-exec-5] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:42:52.265 [http-nio-8080-exec-7] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:52.265 [http-nio-8080-exec-7] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:42:52.278 [http-nio-8080-exec-7] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:52.278 [http-nio-8080-exec-7] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:42:52.429 [http-nio-8080-exec-8] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:52.429 [http-nio-8080-exec-8] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:42:52.445 [http-nio-8080-exec-8] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:52.445 [http-nio-8080-exec-8] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:42:52.559 [http-nio-8080-exec-9] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:52.559 [http-nio-8080-exec-9] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:42:52.575 [http-nio-8080-exec-9] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:52.575 [http-nio-8080-exec-9] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:42:52.782 [http-nio-8080-exec-10] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:52.782 [http-nio-8080-exec-10] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:42:52.797 [http-nio-8080-exec-10] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:52.797 [http-nio-8080-exec-10] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:42:52.899 [http-nio-8080-exec-1] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:52.899 [http-nio-8080-exec-1] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:42:52.915 [http-nio-8080-exec-1] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:52.915 [http-nio-8080-exec-1] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:42:52.994 [http-nio-8080-exec-2] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:52.994 [http-nio-8080-exec-2] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:42:53.010 [http-nio-8080-exec-2] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:53.010 [http-nio-8080-exec-2] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:42:53.164 [http-nio-8080-exec-3] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:53.164 [http-nio-8080-exec-3] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:42:53.180 [http-nio-8080-exec-3] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:53.180 [http-nio-8080-exec-3] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:42:53.386 [http-nio-8080-exec-4] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:53.386 [http-nio-8080-exec-4] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:42:53.413 [http-nio-8080-exec-4] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:42:53.413 [http-nio-8080-exec-4] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:43:10.057 [http-nio-8080-exec-5] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:43:10.057 [http-nio-8080-exec-5] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[ERROR] 2023-11-20 09:43:10.088 [http-nio-8080-exec-5] AssertionFailure - HHH000099: an assertion failure occurred (this may indicate a bug in Hibernate, but is more likely due to unsafe use of the session): org.hibernate.AssertionFailure: null id in com.nucleus.project.bean.Question entry (don't flush the Session after an exception occurs)
+[WARN ] 2023-11-20 09:45:17.974 [http-nio-8080-exec-8] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:45:17.974 [http-nio-8080-exec-8] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[ERROR] 2023-11-20 09:45:17.974 [http-nio-8080-exec-8] AssertionFailure - HHH000099: an assertion failure occurred (this may indicate a bug in Hibernate, but is more likely due to unsafe use of the session): org.hibernate.AssertionFailure: null id in com.nucleus.project.bean.Question entry (don't flush the Session after an exception occurs)
+[WARN ] 2023-11-20 09:45:18.037 [http-nio-8080-exec-9] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:45:18.037 [http-nio-8080-exec-9] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[ERROR] 2023-11-20 09:45:18.037 [http-nio-8080-exec-9] AssertionFailure - HHH000099: an assertion failure occurred (this may indicate a bug in Hibernate, but is more likely due to unsafe use of the session): org.hibernate.AssertionFailure: null id in com.nucleus.project.bean.Question entry (don't flush the Session after an exception occurs)
+[WARN ] 2023-11-20 09:45:18.241 [http-nio-8080-exec-2] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:45:18.241 [http-nio-8080-exec-2] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[ERROR] 2023-11-20 09:45:18.241 [http-nio-8080-exec-2] AssertionFailure - HHH000099: an assertion failure occurred (this may indicate a bug in Hibernate, but is more likely due to unsafe use of the session): org.hibernate.AssertionFailure: null id in com.nucleus.project.bean.Question entry (don't flush the Session after an exception occurs)
+[WARN ] 2023-11-20 09:45:18.241 [http-nio-8080-exec-1] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:45:18.241 [http-nio-8080-exec-1] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[ERROR] 2023-11-20 09:45:18.257 [http-nio-8080-exec-1] AssertionFailure - HHH000099: an assertion failure occurred (this may indicate a bug in Hibernate, but is more likely due to unsafe use of the session): org.hibernate.AssertionFailure: null id in com.nucleus.project.bean.Question entry (don't flush the Session after an exception occurs)
+[WARN ] 2023-11-20 09:45:18.257 [http-nio-8080-exec-10] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:45:18.257 [http-nio-8080-exec-10] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[ERROR] 2023-11-20 09:45:18.257 [http-nio-8080-exec-10] AssertionFailure - HHH000099: an assertion failure occurred (this may indicate a bug in Hibernate, but is more likely due to unsafe use of the session): org.hibernate.AssertionFailure: null id in com.nucleus.project.bean.Question entry (don't flush the Session after an exception occurs)
+[WARN ] 2023-11-20 09:45:18.257 [http-nio-8080-exec-3] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:45:18.257 [http-nio-8080-exec-3] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:45:18.304 [http-nio-8080-exec-3] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:45:18.304 [http-nio-8080-exec-3] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:45:18.477 [http-nio-8080-exec-4] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:45:18.477 [http-nio-8080-exec-4] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:45:18.492 [http-nio-8080-exec-6] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:45:18.492 [http-nio-8080-exec-6] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:45:18.509 [http-nio-8080-exec-4] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:45:18.509 [http-nio-8080-exec-4] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:45:18.524 [http-nio-8080-exec-6] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:45:18.524 [http-nio-8080-exec-6] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:45:18.605 [http-nio-8080-exec-5] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[WARN ] 2023-11-20 09:45:18.605 [http-nio-8080-exec-7] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:45:18.605 [http-nio-8080-exec-7] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[ERROR] 2023-11-20 09:45:18.605 [http-nio-8080-exec-5] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:45:18.619 [http-nio-8080-exec-7] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:45:18.619 [http-nio-8080-exec-7] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:45:18.619 [http-nio-8080-exec-5] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:45:18.619 [http-nio-8080-exec-5] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:46:51.776 [http-nio-8080-exec-8] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:46:51.776 [http-nio-8080-exec-8] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:46:51.804 [http-nio-8080-exec-8] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:46:51.804 [http-nio-8080-exec-8] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[WARN ] 2023-11-20 09:47:42.131 [http-nio-8080-exec-2] SqlExceptionHelper - SQL Error: 904, SQLState: 42000
+[ERROR] 2023-11-20 09:47:42.131 [http-nio-8080-exec-2] SqlExceptionHelper - ORA-00904: "QUESTIONNAME": invalid identifier
+
+[ERROR] 2023-11-20 09:47:42.131 [http-nio-8080-exec-2] AssertionFailure - HHH000099: an assertion failure occurred (this may indicate a bug in Hibernate, but is more likely due to unsafe use of the session): org.hibernate.AssertionFailure: null id in com.nucleus.project.bean.Question entry (don't flush the Session after an exception occurs)
